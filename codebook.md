@@ -2,7 +2,7 @@
 Ninnakin
 25 Sep 2015
 
-The mean.measurements file lists the average for each subject and activity for each measurement relating to a mean or standard deviation value  from the Human Activity Using Smartphones Dataset. I have chosen not to rename the input variables (i.e. rename t.BodyAcc.mean.X to mean.t.BodyAcc.mean.X) and insted name the entire output dataset mean.measurements. This is because the longer name would decrease readability. 
+The mean.measurements file lists the average for each subject and activity for each measurement relating to a mean or standard deviation value from the Human Activity Using Smartphones Dataset. It used the wide tidy data format. I have chosen not to rename the input variables (i.e. rename t.BodyAcc.mean.X to mean.t.BodyAcc.mean.X) and insted name the entire output dataset mean.measurements. This is because the longer name would decrease readability. 
 
 Source of the original data: 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
