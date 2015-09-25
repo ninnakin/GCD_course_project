@@ -13,11 +13,19 @@ The data used represent data collected from the accelerometers from the Samsung 
 And a description of the data can be found here:  http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 ## Input 
-
+The measurements from the test and training dataset from the experiment:
+X_test.txt and X_train.txt 
+The activities for each measurement:
+y_test.txt and y_train.txt 
+The subject identifiers for each measurement:
+subject_test.txt and subject_train.txt 
+Labels for the activities and for the measurements:
+activity_labels.txt
+features.txt
 
 ## Output 
-The tidy dataset mean.measurements containing 190 measurements for 88 variables
-mean.measurements is closer described in codebook.md 
+The tidy dataset mean.measurements containing 190 measurements for 88 variables and can be found in mean.measurements.txt and can be read into R using read.table("mean.measurements.txt", header = TRUE). It is closer described in codebook.md
+
 
 ## run_analysis.R
 This repo cotains the file run_analysis.R which will take several files from the Human Activity Recognition Using Smartphones Dataset and return a dataset containing the average values of a number of the original variables. Running the file will perform the following steps: 
