@@ -14,27 +14,34 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 
 ## Description of manipulated data:
 subject			      int
+
 The id of the subject performing the experiment 
 
 activity		      char
+
 The activity performed while the measurements were collected (standing, laying, sitting, walking, walking_downstair, walking_upstairs)
 
 t.BodyAcc.mean.X	dbl
+
 The mean of the t.BodyAcc.mean.X measurements for one particular subject and activity 
 
 t.BodyAcc.mean.Y	dbl
+
 The mean of the t.BodyAcc.mean.Y measurements for one particular subject and activity 
 
 t.BodyAcc.mean.Z	dbl
 The mean of the t.BodyAcc.mean.Z measurements for one particular subject and activity 
 
 t.BodyAcc.std.X		dbl
+
 The mean of the t.BodyAcc.std.X measurements for one particular subject and activity 
 
 t.BodyAcc.std.Y		dbl
+
 The mean of the t.BodyAcc.std.Y measurements for one particular subject and activity 
 
 t.BodyAcc.std.Z		dbl
+
 The mean of the t.BodyAcc.std.Z measurements for one particular subject and activity 
 
 ## Additional comments on data 
