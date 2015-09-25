@@ -1,5 +1,5 @@
-# Description of the mean.measurements file created for the Getting 
-and Cleaning Data course. 
+# Description of the mean.measurements file created for the Getting and Cleaning Data course. 
+Ninnakin
 25 Sep 2015
 
 The mean.measurements file lists the average for each subject and 
@@ -12,7 +12,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 Original description: 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
-# Description of manipulated data:
+## Description of manipulated data:
 subject			      int
 The id of the subject performing the experiment 
 
@@ -37,4 +37,5 @@ The mean of the t.BodyAcc.std.Y measurements for one particular subject and acti
 t.BodyAcc.std.Z		dbl
 The mean of the t.BodyAcc.std.Z measurements for one particular subject and activity 
 
+## Additional comments on data 
 The dataset contains in total 86 variables describing the average for one subject and activity of a measurement provided in the original dataset. The manipulated dataset only includes measurements relating to a mean or standard 
