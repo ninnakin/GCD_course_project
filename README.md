@@ -13,22 +13,15 @@ The data used represent data collected from the accelerometers from the Samsung 
 And a description of the data can be found here:  http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 ## Input 
-The measurements from the test and training dataset from the experiment:
-
+- The measurements from the test and training dataset from the experiment:
 X_test.txt and X_train.txt 
-
-The activities for each measurement:
-
+- The activities for each measurement:
 y_test.txt and y_train.txt 
-
-The subject identifiers for each measurement:
-
+- The subject identifiers for each measurement:
 subject_test.txt and subject_train.txt 
-
-Labels for the activities and for the measurements:
-
+- Labels for the activities:
 activity_labels.txt
-
+- Labels for the measurements:
 features.txt
 
 ## Output 
