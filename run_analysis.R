@@ -58,6 +58,6 @@ measurements <- cbind.data.frame(subject, activities, measurements)
 # because the column names are already so long and making them longer would decrease readability. Instead I 
 # have named the dataset so that it is clear that it contains only mean values
 mean.measurements <- measurements %>% group_by(subject, activity) %>% summarise_each(funs(mean))
-write.table(mean.measurements, "mean.measurements.txt", col.names=TRUE)
+write.table(mean.measurements, "mean.measurements.txt", col.names=TRUE, row.names=FALSE)
 
 
