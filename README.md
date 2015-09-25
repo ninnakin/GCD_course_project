@@ -28,16 +28,18 @@ features.txt
 The tidy dataset mean.measurements containing 190 measurements for 88 variables. The dataset can be found in mean.measurements.txt and can be read into R using read.table("mean.measurements.txt", header = TRUE). It is closer described in codebook.md
 
 
-## run_analysis.R
+## Performing the analysis using run_analysis.R
 This repo cotains the file run_analysis.R which will take several files from the Human Activity Recognition Using Smartphones Dataset and return a dataset containing the average values of a number of the original variables. Running the file will perform the following steps: 
 
 - Loads required libraries (this script uses the data.table, plyr and dplyr packages)
 - Reads the data from the Human Activity Recognition Using Smartphones Dataset
 - Merges the test and training datasets 
+- Merges the subject, activities and measurements datasets 
 - Extracts only those measurements including 'mean' or 'std' in the variable name  
-- Uses the activity.labels file to provide descriptiove labels for the activities in the dataset
+- Uses the activity.labels file to provide descriptive labels for the activities in the dataset
 - Labels the columns with descriptive names using the features.txt file
-- Creates an independent tidy dataset containing the means of the measurements from the original dataset and store this in mean.measurements 
+- Creates an independent tidy dataset containing the means of the measurements for each subject and activity from the original dataset. 
+- Stores the resulting tidy dataset in mean.measurements 
 
 
 
